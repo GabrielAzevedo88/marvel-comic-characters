@@ -11,7 +11,7 @@ import {
 import EasyListView from 'react-native-easy-listview-gridview'
 import LinearGradient from 'react-native-linear-gradient';
 import { getCharacters } from '../api/MarvelApi';
-import normalizeSize from '../functions/normalizeSize'
+import normalize from '../functions/normalize'
 
 const {width} = Dimensions.get('window');
 const ROW_HEIGHT = width / 2;
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   text: {
     color: 'white',
     fontWeight: 'bold',
-    fontSize: normalizeSize(14)
+    fontSize: normalize(14)
   },
 });
 
@@ -55,7 +55,6 @@ export default class CharactersList extends Component {
     emptyContentText: 'No character found',
     dataSizePerPage: 21,
     numColumn: 3,
-    errorMsg: 'Error: Unable to load characters'
   }
 
   constructor(props) {
