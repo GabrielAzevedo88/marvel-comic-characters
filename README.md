@@ -10,6 +10,11 @@ git clone https://github.com/GabrielAzevedo88/marvel-comic_characters.git
 npm install
 ```
 
-# Attention!
+**Run in Android Platform:**
+```
+react-native run-android
+```
 
-Project not tested on iOS plataform
+# Attention!!!
+
+Project not tested on iOS platform
