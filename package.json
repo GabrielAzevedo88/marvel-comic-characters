@@ -1,5 +1,5 @@
 {
-  "name": "movie-test-rn",
+  "name": "marvel-comic-characters",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -15,9 +15,10 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "react": "16.3.0-alpha.1",
+    "react": "16.3.1",
     "react-native": "0.54.0",
-    "react-native-easy-listview-gridview": "^1.0.3",
-    "react-native-md5": "^1.0.0"
+    "react-native-easy-listview-gridview": "git+https://github.com/GabrielAzevedo88/react-native-easy-listview-gridview.git",
+    "react-native-md5": "^1.0.0",
+    "react-native-splash-screen": "^3.0.6"
   }
 }
