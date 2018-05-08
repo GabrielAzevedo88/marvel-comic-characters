@@ -9,6 +9,8 @@ git clone https://github.com/GabrielAzevedo88/marvel-comic_characters.git
 ```
 npm install
 ```
+**Add your Marvel API keys:**
+Go to -> marvel-comic-characters/app/api/MarvelApi.js and change 
 
 **Run in Android Platform:**
 ```
