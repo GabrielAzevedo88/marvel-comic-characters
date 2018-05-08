@@ -8,7 +8,6 @@ import {
   ScrollView,
   SectionList
 } from 'react-native'
-import { Placeholder } from 'react-native-loading-placeholder';
 import { getCharacter } from "../api/MarvelApi";
 import normalize from "../functions/normalize"
 
@@ -21,6 +20,7 @@ const styles = StyleSheet.create({
   },
   title: {
     flex: 1,
+    fontWeight: 'bold',
     fontSize: normalize(24),
     padding: 10,
     color: 'black',
