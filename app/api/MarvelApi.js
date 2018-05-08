@@ -1,8 +1,8 @@
 import md5 from 'react-native-md5';
 import axios from 'axios';
 
-const PRIVATE_KEY = '3bd2985ab704522f40ed48e60810421c77eb3d75';
-const PUBLIC_KEY = '1439d6cc87af23f796798345eaa05dab';
+const PRIVATE_KEY = 'YOU_PRIVATE_KEY';
+const PUBLIC_KEY = 'YOU_PUBLIC_KEY';
 
 const instance = () => {
   return axios.create({
